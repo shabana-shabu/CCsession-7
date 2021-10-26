@@ -1,0 +1,19 @@
+1: Write a brief about the differences between props and state? When do we use each? 
+Ans:props:
+props are used by a component to get data from external environment i.e another component ( pure, functional or class) or a general class or javascript/typescript code
+states:
+states are used to manage the internal environment of a component means the data changes inside the component.
+differences between props and states:
+1  PROPS:
+The Data is passed from one component to another.
+It is Immutable (cannot be modified).
+Props can be used with state and functional components.
+Props are read-only.
+STATE:
+	The Data is passed within the component only.
+	It is Mutable ( can be modified).
+	State can be used only with the state components/class component (Before 16.0).
+	State is both read and write.	                                           
+2: What are the limitations of props? ( Bonus: Attempt to write an explanation as to how to address this limitation. There are plenty of explanations out there)
+Ans:limitation 1.we can only pass props from parent to child .and we cannot pass the props from child to parent
+solution:In this method, you store the property in the parent component and pass down a function that allows the child to update the prop stored in the parent component.
