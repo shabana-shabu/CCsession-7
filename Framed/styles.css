@@ -1,0 +1,81 @@
+  .layout{
+    display: flex;
+    flex-direction: column;
+  }
+  .logo{
+    background-color:rgb(52, 180, 223);
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    margin-bottom: 10px;
+    
+  }
+  .header{
+    background-color:rgb(94, 56, 233);
+    font-size: 15px;
+    color:white;
+    display: flex;
+    justify-content:space-evenly;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+  
+  .header a {
+    padding: 10px;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family:sans-serif;
+    color: rgb(247, 40, 40);
+
+  }
+  .header a:hover {
+  color: rgb(235, 215, 34);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(177, 169, 168);
+  }
+  .container p {
+    margin-top: 30px;
+    padding: 30px;
+  
+  }
+  
+  .sidebar {
+   
+    width: 30%;
+    background-color: rgb(230, 44, 30);
+    overflow: auto;
+  }
+  .sidebar a {
+    display: flex;
+    color:rgb(17, 0, 255);
+    padding: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+
+  }
+  .sidebar a.active {
+    background-color: rgb(92, 92, 116);
+    color:black;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    color:rgb(196, 54, 54);
+  }
+  main {
+    display: flex;
+  }
+  footer {
+    background-color:rgb(113, 65, 160);
+    color: white;
+    text-align: center;
+  }
